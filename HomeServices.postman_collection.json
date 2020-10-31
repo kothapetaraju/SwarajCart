@@ -1,0 +1,326 @@
+{
+	"id": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+	"name": "HomeServices",
+	"description": "",
+	"order": [
+		"0c264663-af54-0344-eb84-b53c73e004f6",
+		"1cdfb163-cd4e-575e-4d12-05bde1e1a2bb",
+		"1aeda3e5-c554-a7f4-dc2e-0894372dacf5",
+		"edec099f-841c-6218-9181-c7a31ae2a92b",
+		"7429a0f0-35ef-2787-d52e-9d1377ac729f",
+		"bfd51db0-a25b-88fb-9df7-07797532ddc6",
+		"7875ca7b-fbfa-848d-3e92-e19e320fb0d0",
+		"6672d983-a70d-4393-e93c-eb7758112f42"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1604161147552,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0c264663-af54-0344-eb84-b53c73e004f6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:6565/users/signin?username=admin&password=admin",
+			"queryParams": [
+				{
+					"key": "username",
+					"value": "admin",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:6565/users/signin?username=admin&password=admin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161183590,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1aeda3e5-c554-a7f4-dc2e-0894372dacf5",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEyNzMzNCwiZXhwIjoxNjAxMTI3NjM0fQ.XPg8Jh5rOrzwPRP8PJH3dz7mO1fnVPXT_2GOqfZ7gWI\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEyNzMzNCwiZXhwIjoxNjAxMTI3NjM0fQ.XPg8Jh5rOrzwPRP8PJH3dz7mO1fnVPXT_2GOqfZ7gWI",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/facilities/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1604161229163,
+			"name": "http://localhost:6565/area/facilities/1",
+			"description": "",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"responses": [],
+			"rawModeData": "[\n    {\n        \"facilityname\": \"Grocery\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Dairy Products\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Painting\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Electrician\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    }\n]"
+		},
+		{
+			"id": "1cdfb163-cd4e-575e-4d12-05bde1e1a2bb",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMzcyNjg1MywiZXhwIjoxNjAzNzI3MTUzfQ.QCPnIFlUI0ZTD0YEeBAKDBJ5Fycma9AhpwE4NYAw_xY\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMzcyNjg1MywiZXhwIjoxNjAzNzI3MTUzfQ.QCPnIFlUI0ZTD0YEeBAKDBJ5Fycma9AhpwE4NYAw_xY",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/facilities/addAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:6565/area/facilities/addAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161195180,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[\n    {\n        \"facilityname\": \"Grocery\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Dairy Products\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Painting\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Electrician\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    }\n]"
+		},
+		{
+			"id": "6672d983-a70d-4393-e93c-eb7758112f42",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTY2MiwiZXhwIjoxNjA0MTYxOTYyfQ.PkxUD1KoIc1gFKas6eo0pDefRrImaZsbwJTQQmH9VxA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTY2MiwiZXhwIjoxNjA0MTYxOTYyfQ.PkxUD1KoIc1gFKas6eo0pDefRrImaZsbwJTQQmH9VxA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/users/me",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:6565/users/me",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161694377,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7429a0f0-35ef-2787-d52e-9d1377ac729f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTI0MSwiZXhwIjoxNjA0MTYxNTQxfQ.8qOLcRRen2DqVnX6jn8nP5Re3dGIteGQOYH8tCihwhM\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTI0MSwiZXhwIjoxNjA0MTYxNTQxfQ.8qOLcRRen2DqVnX6jn8nP5Re3dGIteGQOYH8tCihwhM",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/locations",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:6565/area/locations",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161427081,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"city\": \"hyderabad\",\r\n  \"locationname\": \"ramaaaaaaa\",\r\n  \"state\": \"APPPPPPPPP\"\r\n}"
+		},
+		{
+			"id": "7875ca7b-fbfa-848d-3e92-e19e320fb0d0",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTI0MSwiZXhwIjoxNjA0MTYxNTQxfQ.8qOLcRRen2DqVnX6jn8nP5Re3dGIteGQOYH8tCihwhM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwNDE2MTI0MSwiZXhwIjoxNjA0MTYxNTQxfQ.8qOLcRRen2DqVnX6jn8nP5Re3dGIteGQOYH8tCihwhM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/locations?locationname=Ramanthapur&city=Hyderabad&state=Telangana",
+			"queryParams": [
+				{
+					"key": "locationname",
+					"value": "Ramanthapur",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "Hyderabad",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "state",
+					"value": "Telangana",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": [],
+			"dataMode": "params",
+			"name": "http://localhost:6565/area/locations?locationname=Ramanthapur&city=Hyderabad&state=Telangana",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161618744,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bfd51db0-a25b-88fb-9df7-07797532ddc6",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEyMjk0MSwiZXhwIjoxNjAxMTIzMjQxfQ.j4IdyzgYGQEQuQu313ItU0OYn-gu9VwYp4dVyMO-8qc\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEyMjk0MSwiZXhwIjoxNjAxMTIzMjQxfQ.j4IdyzgYGQEQuQu313ItU0OYn-gu9VwYp4dVyMO-8qc",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/facilities",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:6565/area/facilities",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161507511,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"facilityname\": \"Grocery\",\r\n  \"faciltyImage\": \"gg\",\r\n  \"locationId\": 1\r\n}"
+		},
+		{
+			"id": "edec099f-841c-6218-9181-c7a31ae2a92b",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEzMTQ0NSwiZXhwIjoxNjAxMTMxNzQ1fQ.fXrHv7kpX98UHBZKofvpDpoTnlYzYdjRWMDyYL9gQiM\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifV0sImlhdCI6MTYwMTEzMTQ0NSwiZXhwIjoxNjAxMTMxNzQ1fQ.fXrHv7kpX98UHBZKofvpDpoTnlYzYdjRWMDyYL9gQiM",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:6565/area/facilities/addAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "123c1bfb-39ee-40ca-d6c1-579615f99715",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:6565/area/facilities/addAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1604161218111,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[\n    {\n        \"facilityname\": \"Grocery\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Dairy Products\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Painting\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    },\n    {\n        \"facilityname\": \"Electrician\",\n        \"faciltyImage\": \"gg\",\n        \"locationId\": 1\n    }\n]"
+		}
+	]
+}
